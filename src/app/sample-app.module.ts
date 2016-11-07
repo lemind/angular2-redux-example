@@ -26,6 +26,11 @@ import {RioCounter} from '../components/counter/counter.component';
 import {RioLoginModule} from '../components/login/login.module';
 import {RioUiModule} from '../components/ui/ui.module';
 import {RioNavigatorModule} from '../components/navigator/navigator.module';
+import {FormExampleModule} from '../components/formtest/formtest.module';
+
+import {
+  NgReduxForms,
+} from 'ng2-redux-form';
 
 @NgModule({
   imports: [
@@ -34,9 +39,11 @@ import {RioNavigatorModule} from '../components/navigator/navigator.module';
     BrowserModule,
     routing,
     CommonModule,
+    NgReduxForms,
     RioLoginModule,
     RioUiModule,
-    RioNavigatorModule
+    RioNavigatorModule,
+    FormExampleModule
   ],
   declarations: [
     RioSampleApp,

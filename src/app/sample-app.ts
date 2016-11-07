@@ -16,7 +16,8 @@ import {
   RioNavigator,
   RioNavigatorItem,
   RioLogo,
-  RioLoginModal
+  RioLoginModal,
+  FormExample
 } from '../components';
 
 import {dev} from '../configuration';
